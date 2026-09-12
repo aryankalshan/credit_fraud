@@ -1,0 +1,44 @@
+.venv/
+__pycache__/
+.cache/
+data/
+outputs*/
+outputs_final/*
+*.pyc
+
+# Local credentials and private settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+# Installed dependencies and generated files
+.venv*/
+venv/
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.tools/
+build*/
+dist/
+bin/
+tmp/
+artifacts/
+runs/
+results/
+outputs*/
+*.exe
+*.o
+*.log
+*.safetensors
+*.gguf
+.DS_Store
+Thumbs.db
+# Personal interview preparation
+*[Ii][Nn][Tt][Ee][Rr][Vv][Ii][Ee][Ww]*
